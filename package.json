@@ -1,0 +1,29 @@
+{
+  "name": "casca-agent",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/axlEscalada/casca-agent#readme",
+  "bugs": {
+    "url": "https://github.com/axlEscalada/casca-agent/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axlEscalada/casca-agent.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "run": "tsx --env-file=.env src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^4.0.60",
+    "ai": "^7.0.111",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15"
+  }
+}
